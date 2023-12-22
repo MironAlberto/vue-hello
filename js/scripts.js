@@ -10,9 +10,16 @@ createApp({
     data() {
         return {
             message: 'Hello Vue!',
-        }
+            
+        };
     },
+
     methods: {
-        
+        getImage() {
+            return 'img/welcome-vue-2.jpg';
+        },
     }
 }).mount('#app');
+
+
+
